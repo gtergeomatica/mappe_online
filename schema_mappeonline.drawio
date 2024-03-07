@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T16:24:58.669Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="-2GpK6pp8JgU5dScWLgQ" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T16:27:33.136Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="G8DBp4OniXYvsS0YTRaF" version="24.0.0" type="github">
   <diagram name="Pagina-1" id="i48ExeRKadWt6t5a4j2Q">
     <mxGraphModel dx="2861" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
       <root>
@@ -295,6 +295,11 @@
             <mxPoint x="39" y="69" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="odBKwpEzfr-yj7jFZeTD-6" target="odBKwpEzfr-yj7jFZeTD-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="odBKwpEzfr-yj7jFZeTD-6" value="&lt;div&gt;«artifact»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;data storage&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="105" y="980" width="110" height="50" as="geometry" />
         </mxCell>
@@ -569,6 +574,19 @@
         </mxCell>
         <mxCell id="odBKwpEzfr-yj7jFZeTD-156" value="&lt;p style=&quot;font-size: 14px;&quot;&gt;Sia Lizmap che G3WSuite&amp;nbsp; utilizzano openlayer&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-330" y="1617.5" width="157.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-157" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="810" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-158" value="&lt;p style=&quot;font-size: 14px;&quot;&gt;nextcloud per storage&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;postgre + postgis per db&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80.63" y="826.25" width="158.75" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="odBKwpEzfr-yj7jFZeTD-4" target="odBKwpEzfr-yj7jFZeTD-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="1085" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
