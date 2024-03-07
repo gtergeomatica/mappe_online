@@ -1,9 +1,249 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T09:20:27.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.2" etag="ttUdednZGnl8AJk230I0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T09:21:07.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_y3jmB-J8Me-wzq02HwL" version="24.0.2" type="github">
   <diagram name="Pagina-1" id="i48ExeRKadWt6t5a4j2Q">
-    <mxGraphModel>
+    <mxGraphModel dx="2868" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zabEVGcr3_6ABB-obtFV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-2" target="zabEVGcr3_6ABB-obtFV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="480" height="50" as="geometry">
+            <mxRectangle x="40" y="40" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-3" value="WEB SERVER (NGINX/APACHE)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-2">
+          <mxGeometry x="10" y="10" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-6" target="zabEVGcr3_6ABB-obtFV-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="330" />
+              <mxPoint x="700" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-6" target="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="264" />
+              <mxPoint x="740" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="234" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-7" value="Web Server Geografico (QGIS Server)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-6">
+          <mxGeometry x="5" y="15" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-8" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-9" value="" style="swimlane;startSize=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-8">
+          <mxGeometry x="280" y="40" width="200" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-10" value="Data Storage (Nextcloud)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-9">
+          <mxGeometry x="20" y="73" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-11" value="" style="swimlane;startSize=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-8">
+          <mxGeometry x="20" y="40" width="220" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-12" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-11">
+          <mxGeometry x="20" y="60" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-13" value="DB dati" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-11">
+          <mxGeometry x="25" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-14" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-11">
+          <mxGeometry x="127" y="60" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-15" value="DB user" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-11">
+          <mxGeometry x="132" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-16" value="DB Manager (PostgreSQL+PostGIS)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-11">
+          <mxGeometry x="10" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-17" value="DATA Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-8">
+          <mxGeometry x="185" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-18" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="40" width="860" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-19" value="Client web (Lizmap/Custom)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry x="345" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-20" value="Funzioni mappa standard" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry x="20" y="50" width="140" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-21" value="navigazione" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-22" value="misura" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-23" value="interrogazioni" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-24" value="selezione" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-25" value="ricerca per attributo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-26" value="ricerca coordinate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-27" value="editing dato" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-28" value="annotazioni" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-29" value="stampa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-30" value="download dati" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="300" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-31" value="gestione metadati" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="330" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-32" value="allegati" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-33" value="grafici" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-34" value="sfondi cartografici" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-20">
+          <mxGeometry y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-35" value="Funzioni gestione utenti" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry x="340" y="50" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-36" value="Autenticazione (LDAP)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-35">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-37" value="creare utenti" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-35">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-38" value="rimuovere utenti" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-35">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-39" value="modificare utenti" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-35">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-40" value="gestione permesi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-35">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-41" value="Gestione Multi-progetto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry x="680" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-42" value="creare nuovi progetti web" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-41">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-43" value="modificare progetti esistenti" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-41">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-44" value="gestione permesi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-41">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-45" value="Pubblicazione dati" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry x="500" y="50" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-46" value="Aggiungere layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-45">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-47" value="Rimuovere layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-45">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-48" value="Organizzazione layer (gruppi/sottogruppi - ordine)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-45">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-49" value="Gestione stile" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-45">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-50" value="Pubblicazione dati diversi formati" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-45">
+          <mxGeometry y="150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-51" value="Interoperabilità (dati da sensore e/o altre fonti)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-45">
+          <mxGeometry y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-52" value="Funzioni mappa Custom" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry x="180" y="50" width="140" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-53" value="Modulo reti sottoservizi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-54" value="Modulo ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-55" value="Modulo dati 3D" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-56" value="integrazione google street view" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-57" value="integrazione mapillary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-58" value="Modulo toponomastica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-59" value="Modulo rete geodetica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-60" value="Modulo catasto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-61" value="Modulo patrimonio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-62" value="Modulo pratiche" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="300" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-63" value="Modulo ricerca territoriale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="330" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-64" value="Modulo telecamere" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-65" value="Modulo fragilità" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zabEVGcr3_6ABB-obtFV-52">
+          <mxGeometry y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-66" value="QGIS" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="385" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-12" target="zabEVGcr3_6ABB-obtFV-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="710" />
+              <mxPoint x="700" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-9" target="zabEVGcr3_6ABB-obtFV-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="630" />
+              <mxPoint x="570" y="630" />
+              <mxPoint x="570" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="222" y="770" />
+              <mxPoint x="1220" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zabEVGcr3_6ABB-obtFV-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-2" target="zabEVGcr3_6ABB-obtFV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
