@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T11:54:13.071Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="c3z-m9yItU0N1NeN3358" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T15:46:34.375Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="RwTMySlZVBjt-9gVgBwe" version="24.0.0" type="github">
   <diagram name="Pagina-1" id="i48ExeRKadWt6t5a4j2Q">
-    <mxGraphModel dx="1674" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,7 +219,7 @@
         <mxCell id="zabEVGcr3_6ABB-obtFV-65" value="Modulo fragilità" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="zabEVGcr3_6ABB-obtFV-52" vertex="1">
           <mxGeometry y="390" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="if31-SL1wKn6ehC9I6Gt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zabEVGcr3_6ABB-obtFV-66" target="zabEVGcr3_6ABB-obtFV-18">
+        <mxCell id="if31-SL1wKn6ehC9I6Gt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-66" target="zabEVGcr3_6ABB-obtFV-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-66" value="QGIS" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -243,7 +243,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zabEVGcr3_6ABB-obtFV-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-14" edge="1" target="zabEVGcr3_6ABB-obtFV-18">
+        <mxCell id="zabEVGcr3_6ABB-obtFV-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-14" target="zabEVGcr3_6ABB-obtFV-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="700" as="targetPoint" />
             <Array as="points">
@@ -254,6 +254,18 @@
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-2" target="zabEVGcr3_6ABB-obtFV-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-1" value="Backend" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="970" width="560" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-2" value="Frontend" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="970" width="570" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-3" value="&lt;div&gt;«artifact»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;qgis server&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1060" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="odBKwpEzfr-yj7jFZeTD-4" value="&lt;div&gt;«artifact»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;db&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1060" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
