@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T16:27:33.136Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="G8DBp4OniXYvsS0YTRaF" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T16:27:58.594Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="OtwWgnW3FI0uLHwLdBfh" version="24.0.0" type="github">
   <diagram name="Pagina-1" id="i48ExeRKadWt6t5a4j2Q">
-    <mxGraphModel dx="2861" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
+    <mxGraphModel dx="3200" dy="2881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-2" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="140" width="480" height="50" as="geometry">
+          <mxGeometry x="30" y="-40" width="480" height="50" as="geometry">
             <mxRectangle x="40" y="40" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18,21 +18,21 @@
         <mxCell id="zabEVGcr3_6ABB-obtFV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-6" target="zabEVGcr3_6ABB-obtFV-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="305" y="330" />
-              <mxPoint x="700" y="330" />
+              <mxPoint x="285" y="150" />
+              <mxPoint x="680" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-6" target="zabEVGcr3_6ABB-obtFV-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="740" y="264" />
-              <mxPoint x="740" y="370" />
+              <mxPoint x="720" y="84" />
+              <mxPoint x="720" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-6" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="234" width="230" height="60" as="geometry">
+          <mxGeometry x="170" y="54" width="230" height="60" as="geometry">
             <mxRectangle x="190" y="234" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -40,7 +40,7 @@
           <mxGeometry x="5" y="15" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-8" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="350" width="500" height="230" as="geometry">
+          <mxGeometry x="20" y="170" width="500" height="230" as="geometry">
             <mxRectangle x="40" y="350" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -74,7 +74,7 @@
           <mxGeometry x="185" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-18" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="850" y="110" width="860" height="520" as="geometry">
+          <mxGeometry x="830" y="-70" width="860" height="520" as="geometry">
             <mxRectangle x="850" y="40" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -223,32 +223,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-66" value="QGIS" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="385" width="160" height="160" as="geometry" />
+          <mxGeometry x="600" y="205" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-12" target="zabEVGcr3_6ABB-obtFV-66" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="740" as="targetPoint" />
+            <mxPoint x="660" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="115" y="710" />
-              <mxPoint x="700" y="710" />
+              <mxPoint x="95" y="530" />
+              <mxPoint x="680" y="530" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-9" target="zabEVGcr3_6ABB-obtFV-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="630" />
-              <mxPoint x="570" y="630" />
-              <mxPoint x="570" y="465" />
+              <mxPoint x="400" y="450" />
+              <mxPoint x="550" y="450" />
+              <mxPoint x="550" y="285" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zabEVGcr3_6ABB-obtFV-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zabEVGcr3_6ABB-obtFV-14" target="zabEVGcr3_6ABB-obtFV-18" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1220" y="700" as="targetPoint" />
+            <mxPoint x="1200" y="520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="222" y="770" />
-              <mxPoint x="1311" y="770" />
+              <mxPoint x="202" y="590" />
+              <mxPoint x="1291" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -576,10 +576,10 @@
           <mxGeometry x="-330" y="1617.5" width="157.5" height="92.5" as="geometry" />
         </mxCell>
         <mxCell id="odBKwpEzfr-yj7jFZeTD-157" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="70" y="810" width="180" height="90" as="geometry" />
+          <mxGeometry x="70" y="750" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="odBKwpEzfr-yj7jFZeTD-158" value="&lt;p style=&quot;font-size: 14px;&quot;&gt;nextcloud per storage&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;postgre + postgis per db&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80.63" y="826.25" width="158.75" height="57.5" as="geometry" />
+          <mxGeometry x="80.63" y="766.25" width="158.75" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="odBKwpEzfr-yj7jFZeTD-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="odBKwpEzfr-yj7jFZeTD-4" target="odBKwpEzfr-yj7jFZeTD-157">
           <mxGeometry relative="1" as="geometry">
