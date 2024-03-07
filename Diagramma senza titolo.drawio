@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T08:37:52.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="oS5owj2KkKi3bZjJyRjQ" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T08:40:49.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="YwqnTphGnS84VTiG51am" version="24.0.2" type="github">
   <diagram name="Pagina-1" id="CSM-GVQvYuZcYAw68Tlw">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="480" height="50" as="geometry">
+          <mxGeometry x="80" y="140" width="480" height="50" as="geometry">
             <mxRectangle x="40" y="40" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,13 +13,13 @@
           <mxGeometry x="10" y="10" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-10" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="134" width="230" height="60" as="geometry" />
+          <mxGeometry x="220" y="234" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-11" value="Web Server Geografico (QGIS Server)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Nl0qf8vSL4iAj1lwMg25-10">
           <mxGeometry x="5" y="15" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-19" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="500" height="230" as="geometry" />
+          <mxGeometry x="70" y="350" width="500" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-18" value="" style="swimlane;startSize=0;" vertex="1" parent="Nl0qf8vSL4iAj1lwMg25-19">
           <mxGeometry x="280" y="40" width="200" height="176" as="geometry" />
@@ -49,10 +49,13 @@
           <mxGeometry x="185" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-21" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="40" width="560" height="640" as="geometry" />
+          <mxGeometry x="880" y="40" width="560" height="640" as="geometry" />
         </mxCell>
         <mxCell id="Nl0qf8vSL4iAj1lwMg25-22" value="Client web (Lizmap/Custom)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Nl0qf8vSL4iAj1lwMg25-21">
           <mxGeometry x="195" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nl0qf8vSL4iAj1lwMg25-23" value="QGIS" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="385" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
